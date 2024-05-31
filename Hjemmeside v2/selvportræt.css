@@ -1,0 +1,115 @@
+body {
+    font-family: ubuntu;
+    margin: 0;
+    padding: 0;
+    background-color: #ffffff;
+}
+
+.header {
+    background-color: #d3a4e4;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+}
+
+.logo img {
+    height: 100px;
+}
+
+.header-menu ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    gap: 20px;
+}
+
+.header-menu ul li {
+    margin: 0;
+}
+
+.header-menu ul li a {
+    text-decoration: none;
+    color: #000;
+    padding: 10px 20px;
+    background-color: #967bb6;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+.header-menu ul li a:hover {
+    background-color: #754a9e;
+}
+
+main {
+    padding: 20px;
+}
+
+.content {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 20px;
+}
+
+.text-section {
+    font-family: poppins;
+    max-width: 70%;
+}
+
+.text-section p, .text-section ul {
+    margin-bottom: 20px;
+}
+
+.text-section ul {
+    padding-left: 20px;
+}
+
+.text-section h3 {
+    margin-top: 20px;
+}
+
+.image-section img {
+    width: 250px;
+    height: auto;
+    border-radius: 10px;
+}
+
+.footer {
+    background-color: #d3a4e4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    gap: 20px;
+}
+
+.footer .some {
+    width: 50px;
+    height: 50px;
+}
+
+.contact-button {
+    background-color: #967bb6;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.contact-button:hover {
+    background-color: #754a9e;
+}
+@font-face {
+    font-family: ubuntu;
+    src: url(Font/Ubuntu/Ubuntu-Bold.ttf)
+
+}
+@font-face {
+    font-family: poppins;
+    src: url(Font/Poppins/Poppins-Black.ttf)}
+
+
